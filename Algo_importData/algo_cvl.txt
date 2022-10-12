@@ -1,0 +1,13 @@
+Je mets cette 1ère version ici mais sincèrement, je ne sais pas vraiment comment
+"verbaliser" un algorithme. Je modifierai au fur et à mesue que je prendrai 
+connaissance des vôtres.
+
+
+Algo_ImportData
+
+  Poser a : la date d'intérêt la plus ancienne
+  Poser b : la date d'intérêt la plus récente
+  Pour i = 1 à vecteurDate:longueur 
+    c[i] = ième variable du vecteur date
+  Importer les données situées dans l'intervalle [a, b]
+  Retourner un tableau avec (b - a) lignes et (vecteurDate:longueur) colonnes

@@ -1,0 +1,33 @@
+Algorithme ImportData
+
+Définir les mois d'avril à novembre avec des variables
+Il y a 3 cas à considérer: si les dates de début et de fin sont dans le même mois, si elles sont dans deux mois consécutifs et si elles ne sont pas dans deux mois consécutifs.
+Les entrants sont les dates de début et de fin des mois à considérer
+
+1. Si les dates de début et de fin sont dans le même mois:
+1.1 Importer le fichier de données du mois
+1.2 Sélectionner les données plus grandes ou égales à la date de début et celles plus petites ou égales à la date de fin 
+1.3 Retourner le tableau
+
+2. Si les dates de début et de fin sont dans deux mois consécutifs:
+2.1 Importer les fichiers de données des deux mois 
+2.2 Sélectionner les données plus grandes ou égales à la date de début et celles plus petites ou égales à la date de fin 
+2.3 Retourner le tableau
+
+3. Si les dates de début et de fin ne sont pas dans deux mois consécutifs:
+3.1.1 Importer le fichier du premier mois
+3.1.2 Sélectionner les données plus grandes ou égales à la date de début  
+3.2.1 Importer toutes les données des fichiers de mois intermédiaires
+3.2.2 Fusionner toutes les données avec le tableau prédécent
+3.3.1 Importer le fichier du dernier mois
+3.3.2 Sélectionner toutes les données plus petites ou égales à la date de fin
+3.3.3 Fusionner les données sélectionnées avec le tableau prédécent
+3.3.4 Retourner le tableau
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+1. Créer une fonction importData avec comme paramètres les dates de début et de fin, et le chemin d'accès au fichier contenant les données.
+2. Définir pour chaque mois valide (de avril à novembre) un chiffre afin de les identifier.
+3. Gérer l'importation de données selon trois cas:
+	1- Début et fin dans le même mois : Importer les données du fichier du mois pour ainsi les appliquer
+							à un vecteur qui va contenir les données entre les deux dates mentionnées.
+	2- Début et fin dans des mois consécutifs : Importer les données des fichiers des mois consécutifs pour ainsi les appliquer
+								  définir les dates à importer selon la séquence du début du premier mois jusqu'à
+								  la fin du dernier mois, et les appliquer à un vecteur qui va contenir les données entre ceux-ci.
+	3- Début et fin dans des mois non-consécutifs : Générer la suite entre start et end sans prendre compte les mois qui sont à enlever
+									entre les dates de début et de fin. Ensuite, enlever les mois dans la séquence qui ne sont pas
+									à importer, ce qui va faire que le vecteur contient seulement les mois sélectionnés.
+									À l'aide d'une boucle, importer les données mois par mois avec un itérateur qui pointe
+									le mois de la séquence.

@@ -1,0 +1,17 @@
+importData(start, end, path = ".")
+Si le mois de start est < 4 ou > 11
+	Retourner "ERREUR"
+Si le mois de end est < 4 ou > 11 ou end < start
+	Retourner "ERREUR"
+start.debut.mois <— premier jour du mois de start
+end.debut.mois <— premier jour du mois de end
+dates <— créer une séquence de start.debut.mois à end.debut.mois par bond de 1 mois
+nomsfichiers <— créer les noms des fichiers selon leur mois, leur année et le path
+tableaudonnées <— créer un tableau vide
+Pour nomfichier dans nomsfichiers
+	tableaudonnéesfichier <— importer nomfichier
+	tableaudonnées <— fusionner tableaudonnéesfichier à tableaudonnées
+Fin Pour
+tableaudonnées <— sélectionner les données de tableaudonnées entre start et end
+Retourner tableaudonnées
+Fin importData

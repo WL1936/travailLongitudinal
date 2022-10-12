@@ -1,0 +1,14 @@
+IMPORTDATA
+
+1. Attribuer un chiffre à chaque mois ( 1 <= Janvier)
+2. Si le mois de start ou de end est <4 ou >11
+	Retourner "ERREUR
+3. Si dates de Début et fin dans le même mois
+	Importer fichier de données du mois
+	Sélectionner les données du tableau entre les deux dates
+	Retourner le tableau
+4. Si les dates de Début et fin ne sont pas dans le même mois
+	Importer fichier de données du mois Start au mois End
+	Sélectionner données >= Start et <= End
+	Fusionner les tableaux de données
+	Retourner le tableau
