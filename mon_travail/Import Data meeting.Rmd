@@ -1,0 +1,27 @@
+Entrer les argumentsç
+1 verifier si les dates sont dans le meme mois
+si oui : on importe le mois, on coupe et merci
+
+sinon: Vérifier la longueur du nombre de mois entre les deux mois (associé aux dates)
+  ouvrir le premier mois, on coupe (avec la boucle)
+  on ouvre les mois entre les deux dates fin et début
+  on ajoute chacun d'eux
+  On ouvre le dernier mois 
+
+
+ImportData_meeting
+17 avril au 19 avril:
+  on importe le mois d'avril'
+  
+  on sélectionne ce qu'il y a dans le milieu
+  on retourne les données
+  
+  
+2e situation:avril a novembre
+ On importe tous les mois
+ on enlève ce qu'ona a pas besoin
+ on importe les autres mois entier
+ on importe le dernier mois
+ on enlève les dates supérieures à la date de fin
+ superposer les lignes conservées
+ 
